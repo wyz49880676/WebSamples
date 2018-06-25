@@ -1,0 +1,21 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "recent-docs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recentDocs/RecentDocsWebPart.js",
+          "manifest": "./src/webparts/recentDocs/RecentDocsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-1.11.1.min.js",
+    "jqueryui": "https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"
+  },
+  "localizedResources": {
+    "RecentDocsWebPartStrings":"lib/webparts/RecentDocs/loc/{locale}.js"
+  }
+}

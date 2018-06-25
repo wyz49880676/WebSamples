@@ -1,0 +1,133 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.recentDocs {
+
+  // @media screen and (max-width:240px) {
+  //   .box{width:200px;}
+  //   .title{color:red;}
+  // }
+
+  // width: calc((87.5% - 40px)/3);
+  // width: -webkit-calc((87.5% - 40px)/3);
+  // width: -moz-calc((87.5% - 40px)/3);
+
+  margin-top: 5px;
+  margin-bottom: calc((50px - 24px));
+  
+  .header {
+    .headerimg {
+      vertical-align: middle;
+    }
+    .headertitle {
+      font-size: 20px;
+      color: #334455;
+      margin-left: 10px;
+      display: inline-block;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+  }
+
+  .container {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px #d9dde0;
+    margin-top: 5px;
+
+    .back {
+      padding: 10px 20px 0px 20px;      
+      a {
+        font-size: 15px;
+        color: #0881cc;
+        cursor: pointer;
+      }
+    }
+
+    .list {
+      list-style: none;
+      padding: 25px 20px 35px 20px;
+      margin: 0;
+      
+      .item {
+        height: 70px;
+        margin: 0 0 5px 0;
+        
+        table {
+          width: 260px;
+          border-spacing: 0;
+          margin: 0;
+          .icon {
+            padding: 0px;
+            vertical-align: top;
+            img {
+              width: 32px;
+              height: 32px;
+            }
+          }
+          .doc {
+            padding: 5px 0 0 10px;
+            vertical-align: top;
+            width: 100%;
+
+            table{
+              table-layout: fixed;  
+              width: 100%;         
+              td {
+                padding: 0px;
+                text-overflow: ellipsis; 
+                white-space: nowrap; 
+                overflow: hidden; 
+                a {
+                  font-size: 15px;
+                  color: #0881cc;
+                  cursor: pointer;
+                }
+                a:hover {
+                  color: #4e4777; 
+                }
+                span {
+                  font-size: 14px;
+                  color: #333333;
+                  width: 100%
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 15px;
+    text-align: center;
+  
+    .button {
+      min-width: 180px;
+      height: 30px;
+      background-color: #f9b949;
+      border-color: #f9b949;
+      border-radius: 15px;
+      border-width: 0;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+      outline: transparent;
+
+      &:hover{
+        background-color: #f6a00f
+      }
+
+      .label {
+        color: #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: top;
+        display: inline-block;
+      }
+    }
+  }
+}

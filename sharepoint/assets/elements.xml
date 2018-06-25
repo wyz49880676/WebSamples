@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <!-- <CustomAction
+        Title="Header"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="70df0878-b904-44be-9be5-b70c498bc307"
+        ClientSideComponentProperties="{&quot;Navigations&quot;:true}">
+    </CustomAction>
+
+    <CustomAction
+        Title="Footer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="db2c277b-2867-427e-ac09-8ca0dd56aa6f">
+    </CustomAction> -->
+</Elements>

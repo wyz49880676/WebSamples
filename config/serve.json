@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://acsdev365.sharepoint.com/sites/wyzDevEN",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  },
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://acsdev365.sharepoint.com/sites/wyzDevEN/SitePages/Apps.aspx",
+      "customActions": {
+        "70df0878-b904-44be-9be5-b70c498bc307": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "local": {
+      "pageUrl": "https://localhost:4321/temp/workbench.html"
+    }
+  }
+}

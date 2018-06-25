@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "BrowseFolderDemo",
+    "libraryId": "9b47226c-284e-4195-93c2-1908f1ee55ba",
+    "environment": "spo"
+  }
+}
